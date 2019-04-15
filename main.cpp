@@ -28,7 +28,7 @@ int main( int argc, char* argv[] ) {
     GrayCodeGenerator p;
     auto g = p.RecursiveSolution ( 4 );
     for(int i = 0; i < g.size(); i++) {
-        cout << std::dec << g[i] << " => \t" << std::bitset<8>(g[i]) << endl;
+        cout << std::dec << g[i] << "\t => \t" << std::bitset<8>(g[i]) << endl;
     }
     return 0;
 }
